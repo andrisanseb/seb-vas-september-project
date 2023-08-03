@@ -1,0 +1,16 @@
+.backButton {
+    background-color: transparent;
+    color: black;
+    font-size: 40px;
+    margin: 0px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+}
+
+.backButton:hover {
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+}

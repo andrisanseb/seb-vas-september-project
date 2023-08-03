@@ -1,0 +1,12 @@
+.logo h1 {
+    font-size: 60px;
+    background-color: #26d786;
+    font-weight: 800;
+    text-align: center;
+    border: 2px solid black;
+    padding: 5px;
+    margin-bottom: 0;
+    margin-right: 50px;
+    /*text-shadow: 5px 5px 0 rgb(135, 192, 255);*/
+    z-index: -1;
+}

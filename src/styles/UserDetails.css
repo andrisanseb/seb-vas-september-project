@@ -1,0 +1,28 @@
+.users-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.users-details-container ul, li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.users-details-container p {
+    margin: 0;
+    padding: 0;
+}
+
+.users-details-container h1 {
+    padding: 0;
+    margin: 0;
+}
+
+.users-details-container a {
+    text-decoration: none;
+}

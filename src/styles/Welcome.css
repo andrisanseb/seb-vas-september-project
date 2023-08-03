@@ -1,0 +1,40 @@
+.welcome-container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.card {
+    display: flex;
+    background-color: white;
+    border: 2px solid black;
+    width: 400px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.card:hover {
+    background-color: #f63c5e;
+}
+
+.card-content {
+    font-size: 24px;
+    font-weight: bold;
+}

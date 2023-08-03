@@ -1,0 +1,21 @@
+.get-started-container {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    align-content: center;
+}
+
+.get-started-container > div {
+    width: 48%;
+}
+
+@media (max-width: 768px) {
+    .get-started-container {
+        flex-direction: column;
+    }
+
+    .get-started-container > div {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
